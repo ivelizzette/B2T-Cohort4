@@ -1,0 +1,9 @@
+function submitForm(e){
+  e.preventDefault()
+  
+  var firstName = document.getElementById('firstNam').value;
+
+  document.getElementById('valueFirstNam').innerHTML = firstName;
+
+  alert('Your name is' + ' ' + firstname);
+}
